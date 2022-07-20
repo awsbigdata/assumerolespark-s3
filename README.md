@@ -13,6 +13,8 @@ Usecase:
     2. Configure EMR to add above jar in emrfs 
      
      https://aws.amazon.com/blogs/big-data/securely-analyze-data-from-another-aws-account-with-emrfs/
+     
+     [{"classification":"emrfs-site", "properties":{"fs.s3.customAWSCredentialsProvider":"software.zip.s3.RoleBasedAWSCredentialProvider"}, "configurations":[]}]
     
     3. Configure spark context with required valued 
     
